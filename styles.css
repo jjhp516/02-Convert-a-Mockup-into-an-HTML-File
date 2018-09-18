@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;  
+}
+
+caption {
+    color: #b22222;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: left;
+}
+
+table {
+    width: 850px;
+    margin: 200px auto;
+    text-align: right;
+    border-collapse: collapse;
+    box-shadow: 7px 20px 10px 6px #ddd;
+}
+
+th, td {
+    font-size: 24px;
+    padding: 30px;
+}
+
+.col-left {
+    text-align: left;
+    color: rgba(0, 0, 0, 0.65);
+    background: #ddd;
+}
+
+.th-1, th {
+    background: #b22222;
+    color: rgba(255, 255, 255, 0.65);
+    font-weight: 400;
+    border-bottom: 1px solid #b22222;
+}
+
+td {
+    border-bottom: 1px solid rgb(200, 200, 200);
+    text-transform: uppercase;
+}
+
+
